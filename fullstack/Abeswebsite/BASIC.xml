@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<!DOCTYPE emalname [
+<!ELEMENT emalname (email)>
+<!ELEMENT email (#PCDATA)>
+]>
+<emalname>
+  <email>enter your email</email>
+</emalname>

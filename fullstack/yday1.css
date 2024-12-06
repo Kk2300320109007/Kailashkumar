@@ -1,0 +1,24 @@
+#box{
+    background-color: blue;
+}
+.Heading1{
+    color: red;
+}
+#btn{
+    background-color: red;
+    text-decoration: none;
+    text-emphasis: none;
+    text-decoration: dashed;
+    
+}
+.Heading1{
+    text-align: end;
+    text-transform: capitalize;
+}
+#p1{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+h1{
+    text-decoration: none;
+}

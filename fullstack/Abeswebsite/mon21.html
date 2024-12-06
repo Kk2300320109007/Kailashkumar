@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function effectPara1() {
+            var x = document.getElementById("p1");
+            x.style.backgroundColor = "lightblue";
+        }
+
+        function effectoutPara1() {
+            var x = document.getElementById("p1");
+            x.style.backgroundColor = "white";
+        }
+
+        function effectPara2() {
+            var x = document.getElementById("p2");
+            x.style.backgroundColor = "lightgreen";
+        }
+
+        function effectoutPara2() {
+            var x = document.getElementById("p2");
+            x.style.backgroundColor = "white";
+        }
+
+        function changeColorPara1() {
+            var x = document.getElementById("p1");
+            x.style.backgroundColor = "lightcoral";
+        }
+
+        function changeColorPara2() {
+            var x = document.getElementById("p2");
+            x.style.backgroundColor = "lightyellow";
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to section C</h1>
+
+    <p id="p1" onmouseover="effectPara1()" onmouseout="effectoutPara1()">Hover over this text to change the color .</p>
+    <button onclick="changeColorPara1()">ClickME:1</button>
+
+    <p id="p2" onmouseover="effectPara2()" onmouseout="effectoutPara2()">Hover over this text to change the color .</p>
+    <button onclick="changeColorPara2()">ClickME:2</button>
+    alert("message to be shown");
+
+</body>
+</html>

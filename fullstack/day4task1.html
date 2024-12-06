@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .parent {
+            display: flex;
+        }
+        .plan {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            width: 200px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .plan h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .price {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .features {
+            list-style-type: none;
+            padding: 0;
+        }
+        .features li {
+            margin: 10px 0;
+        }
+        .sign-up {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .sign-up:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="parent">
+        <div class="plan">
+            <h2>Basic</h2>
+            <div class="price">$10 / month</div>
+            <ul class="features">
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+            </ul>
+            <a href="#" class="sign-up">Sign Up</a>
+        </div>
+
+        <div class="plan">
+            <h2>Premium</h2>
+            <div class="price">$30 / month</div>
+            <ul class="features">
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+            <a href="#" class="sign-up">Sign Up</a>
+        </div>
+
+        <div class="plan">
+            <h2>Pro</h2>
+            <div class="price">$50 / month</div>
+            <ul class="features">
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+            </ul>
+            <a href="#" class="sign-up">Sign Up</a>
+        </div>
+    </div>
+
+</body>
+</html>
